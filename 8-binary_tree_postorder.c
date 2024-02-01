@@ -9,8 +9,8 @@
  * Return: Void.
  *
  * Description: This function traverses the binary tree in post-order, i.e.,
- * it recursively visits the left and right subtrees before calling the provided
- * function for the current node's value.
+ * it recursively visits the left and right subtrees before calling the 
+ * provided function for the current node's value.
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
